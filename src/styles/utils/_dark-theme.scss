@@ -1,0 +1,68 @@
+:root {
+  --main-background: #f7f7f7;
+  --gren4: #0c797a;
+  --slider-background: #d6ecec;
+  --black: #131313;
+  --black2: #333;
+  --black-duplicate: #333;
+
+  transition:
+    --main-background 0.5s ease,
+    --gren4 0.5s ease,
+    --slider-background 0.5s ease,
+    --black 0.5s ease,
+    --black2 0.5s ease;
+}
+
+:root.dark {
+  --main-background: #000;
+  --gren4: #000;
+  --slider-background: #3a3a3a;
+  --black: #cfeff0;
+  --black2: #0db2b3;
+}
+
+:root.dark .page__logo {
+  filter: brightness(0) saturate(100%) invert(76%) sepia(16%) saturate(5387%)
+    hue-rotate(137deg) brightness(65%) contrast(105%)
+    drop-shadow(0 8px 14px rgba(0, 0, 0, 0.45));
+}
+
+:root.dark .header {
+  filter: drop-shadow(0 1px 3px #4f4f4f93);
+
+  @media (min-width: 1440px) {
+    filter: none;
+  }
+}
+
+:root.dark .hero__image,
+:root.dark .presentation__image {
+  filter: drop-shadow(0 8px 7px #0db3b396);
+}
+
+:root.dark .swiper-button-prev,
+:root.dark .swiper-button-next {
+  filter: brightness(0) saturate(100%) invert(76%) sepia(16%) saturate(5387%)
+    hue-rotate(137deg) brightness(65%) contrast(105%)
+    drop-shadow(0 8px 14px rgba(0, 0, 0, 0.45));
+}
+
+:root.dark .questions__email:focus {
+  border-color: $green-1;
+}
+
+:root.dark .questions__message:focus {
+  border-color: $green-1;
+}
+
+:root.dark .testimonilas__image {
+  filter: opacity(0.1);
+}
+
+:root.dark .header__buy-button:hover,
+:root.dark .questions__button:hover,
+:root.dark .menu__buy-button:hover {
+  background-color: $gray-1;
+  color: $green-1;
+}
