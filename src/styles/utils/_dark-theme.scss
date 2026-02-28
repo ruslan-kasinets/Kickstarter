@@ -11,7 +11,8 @@
     --gren4 0.5s ease,
     --slider-background 0.5s ease,
     --black 0.5s ease,
-    --black2 0.5s ease;
+    --black2 0.5s ease,
+    --black-duplicate 0.5s ease;
 }
 
 :root.dark {
@@ -20,6 +21,8 @@
   --slider-background: #3a3a3a;
   --black: #cfeff0;
   --black2: #0db2b3;
+  --black-duplicate: #7c7c7c;
+
 }
 
 :root.dark .page__logo {

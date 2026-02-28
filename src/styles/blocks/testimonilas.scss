@@ -21,9 +21,6 @@
     height: 171px;
     background-size: cover;
     background-color: transparent;
-
-    // filter:
-    //   opacity(0.1);
   }
 
   &__text {
@@ -51,14 +48,17 @@
 
   &__person-image {
     margin-bottom: 10px;
-    transition: all 0.3s;
-
-    &:hover {
-      transform: scale(1.3);
-    }
 
     @include on-tablet {
       margin-bottom: 20px;
+    }
+  }
+
+  &__avatar-icon {
+    transition: all 0.3s;
+    
+    &:hover {
+      transform: scale(1.3);
     }
   }
 
