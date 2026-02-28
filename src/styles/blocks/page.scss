@@ -29,9 +29,9 @@
   }
 
   &__menu {
+    position: fixed;
     width: 100vw;
     height: 100vh;
-    position: fixed;
     z-index: 5;
   }
 
@@ -67,7 +67,7 @@
   &__nav {
     position: sticky;
     top: 0;
-    margin-bottom: 62px;
+    margin-bottom: 65px;
     z-index: 10;
   }
 
