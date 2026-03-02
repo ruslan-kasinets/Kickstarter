@@ -18,7 +18,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 24px 0;
-    margin-bottom: 31px;
+    margin-bottom: 25px;
 
     @include on-tablet {
       margin-bottom: 40px;
@@ -27,6 +27,7 @@
 
   &__logo-image {
     transition: all 0.3s ease;
+    height: 26px;
 
     &:hover {
       transform: scale(1.1);
@@ -122,6 +123,7 @@
   }
 
   &__buttons {
+    margin-bottom: 162px;
     display: flex;
     align-items: center;
     gap: 20px;
