@@ -7,6 +7,7 @@
 
   &__wrapper-1 {
     @include on-tablet {
+      margin-top: 5px;
       grid-column: 1 / 5;
     }
 
@@ -17,6 +18,7 @@
 
   &__wrapper-2 {
     @include on-tablet {
+      margin-top: 5px;
       grid-column: 5 / -1;
     }
 
@@ -27,6 +29,7 @@
 
   &__wrapper-3 {
     @include on-tablet {
+      margin-top: 5px;
       grid-column: 1 / 5;
     }
 
@@ -37,6 +40,7 @@
 
   &__wrapper-4 {
     @include on-tablet {
+      margin-top: 5px;
       grid-column: 5 / -1;
     }
 
